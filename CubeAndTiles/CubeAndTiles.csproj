@@ -63,36 +63,36 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Fusee.Engine.Common">
-      <HintPath>..\..\FuseeBinary\lib\Fusee.Engine.Common.dll</HintPath>
-    </Reference>
-    <Reference Include="Fusee.Engine.Core">
-      <HintPath>..\..\FuseeBinary\lib\Fusee.Engine.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Fusee.Engine.Imp.NAudio">
-      <HintPath>..\..\FuseeBinary\lib\Fusee.Engine.Imp.NAudio.dll</HintPath>
-    </Reference>
-    <Reference Include="Fusee.Engine.Imp.OpenTK">
-      <HintPath>..\..\FuseeBinary\lib\Fusee.Engine.Imp.OpenTK.dll</HintPath>
-    </Reference>
-    <Reference Include="Fusee.Math.Core">
-      <HintPath>..\..\FuseeBinary\lib\Fusee.Math.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Fusee.SceneManagement.SceneManagement">
-      <HintPath>..\..\FuseeBinary\lib\Fusee.SceneManagement.SceneManagement.dll</HintPath>
-    </Reference>
-    <Reference Include="JSIL.Meta">
-      <HintPath>..\..\FuseeBinary\lib\JSIL.Meta.dll</HintPath>
-    </Reference>
-    <Reference Include="OpenTK">
-      <HintPath>..\..\FuseeBinary\lib\OpenTK.dll</HintPath>
-    </Reference>
-    <Reference Include="sfmlNET.Audio">
-      <HintPath>..\..\FuseeBinary\lib\sfmlNET.Audio.dll</HintPath>
-    </Reference>
+    <Folder Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Properties\" />
+    <Reference Include="Fusee.Engine.Common">
+      <HintPath>..\lib\Fusee.Engine.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Fusee.Engine.Core">
+      <HintPath>..\lib\Fusee.Engine.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Fusee.Engine.Imp.NAudio">
+      <HintPath>..\lib\Fusee.Engine.Imp.NAudio.dll</HintPath>
+    </Reference>
+    <Reference Include="Fusee.Engine.Imp.OpenTK">
+      <HintPath>..\lib\Fusee.Engine.Imp.OpenTK.dll</HintPath>
+    </Reference>
+    <Reference Include="Fusee.Math.Core">
+      <HintPath>..\lib\Fusee.Math.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Fusee.SceneManagement.SceneManagement">
+      <HintPath>..\lib\Fusee.SceneManagement.SceneManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="JSIL.Meta">
+      <HintPath>..\lib\JSIL.Meta.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK">
+      <HintPath>..\lib\OpenTK.dll</HintPath>
+    </Reference>
+    <Reference Include="sfmlNET.Audio">
+      <HintPath>..\lib\sfmlNET.Audio.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="AfterBuild">
