@@ -5,6 +5,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubeAndTiles", "projects\Cu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmptyProject", "projects\EmptyProject\EmptyProject.csproj", "{5CC07A6C-E203-4FC9-862F-8F0A0CFBF474}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MageExample", "projects\MageExample\MageExample.csproj", "{237B7F51-4195-40ED-B5DF-680907041EE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EgoPerspective", "projects\EgoPerspective\EgoPerspective.csproj", "{9B00A9A0-8317-484C-BAB0-B0F7B75CDCC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple", "projects\Simple\Simple.csproj", "{5994A08E-749A-4937-9A6E-E75F00F28511}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solar", "projects\SolarSystem\Solar.csproj", "{9EDC554B-E4B4-488A-88AB-4C005454A2FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoundTest", "projects\SoundTest\SoundTest.csproj", "{0B4CD6EA-C03E-4497-8C99-D005E5A6BB53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Texture", "projects\Texture\Texture.csproj", "{02B1072D-C4D3-4BD8-A7BF-BBDA956E0DB8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -24,6 +36,42 @@ Global
 		{5CC07A6C-E203-4FC9-862F-8F0A0CFBF474}.Debug+Web|x86.Build.0 = Debug+Web|x86
 		{5CC07A6C-E203-4FC9-862F-8F0A0CFBF474}.Release|x86.ActiveCfg = Release|x86
 		{5CC07A6C-E203-4FC9-862F-8F0A0CFBF474}.Release|x86.Build.0 = Release|x86
+		{237B7F51-4195-40ED-B5DF-680907041EE1}.Debug|x86.ActiveCfg = Debug|x86
+		{237B7F51-4195-40ED-B5DF-680907041EE1}.Debug|x86.Build.0 = Debug|x86
+		{237B7F51-4195-40ED-B5DF-680907041EE1}.Debug+Web|x86.ActiveCfg = Debug+Web|x86
+		{237B7F51-4195-40ED-B5DF-680907041EE1}.Debug+Web|x86.Build.0 = Debug+Web|x86
+		{237B7F51-4195-40ED-B5DF-680907041EE1}.Release|x86.ActiveCfg = Release|x86
+		{237B7F51-4195-40ED-B5DF-680907041EE1}.Release|x86.Build.0 = Release|x86
+		{9B00A9A0-8317-484C-BAB0-B0F7B75CDCC6}.Debug|x86.ActiveCfg = Debug|x86
+		{9B00A9A0-8317-484C-BAB0-B0F7B75CDCC6}.Debug|x86.Build.0 = Debug|x86
+		{9B00A9A0-8317-484C-BAB0-B0F7B75CDCC6}.Debug+Web|x86.ActiveCfg = Debug+Web|x86
+		{9B00A9A0-8317-484C-BAB0-B0F7B75CDCC6}.Debug+Web|x86.Build.0 = Debug+Web|x86
+		{9B00A9A0-8317-484C-BAB0-B0F7B75CDCC6}.Release|x86.ActiveCfg = Release|x86
+		{9B00A9A0-8317-484C-BAB0-B0F7B75CDCC6}.Release|x86.Build.0 = Release|x86
+		{5994A08E-749A-4937-9A6E-E75F00F28511}.Debug|x86.ActiveCfg = Debug|x86
+		{5994A08E-749A-4937-9A6E-E75F00F28511}.Debug|x86.Build.0 = Debug|x86
+		{5994A08E-749A-4937-9A6E-E75F00F28511}.Debug+Web|x86.ActiveCfg = Debug+Web|x86
+		{5994A08E-749A-4937-9A6E-E75F00F28511}.Debug+Web|x86.Build.0 = Debug+Web|x86
+		{5994A08E-749A-4937-9A6E-E75F00F28511}.Release|x86.ActiveCfg = Release|x86
+		{5994A08E-749A-4937-9A6E-E75F00F28511}.Release|x86.Build.0 = Release|x86
+		{9EDC554B-E4B4-488A-88AB-4C005454A2FE}.Debug|x86.ActiveCfg = Debug|x86
+		{9EDC554B-E4B4-488A-88AB-4C005454A2FE}.Debug|x86.Build.0 = Debug|x86
+		{9EDC554B-E4B4-488A-88AB-4C005454A2FE}.Debug+Web|x86.ActiveCfg = Debug+Web|x86
+		{9EDC554B-E4B4-488A-88AB-4C005454A2FE}.Debug+Web|x86.Build.0 = Debug+Web|x86
+		{9EDC554B-E4B4-488A-88AB-4C005454A2FE}.Release|x86.ActiveCfg = Release|x86
+		{9EDC554B-E4B4-488A-88AB-4C005454A2FE}.Release|x86.Build.0 = Release|x86
+		{0B4CD6EA-C03E-4497-8C99-D005E5A6BB53}.Debug|x86.ActiveCfg = Debug|x86
+		{0B4CD6EA-C03E-4497-8C99-D005E5A6BB53}.Debug|x86.Build.0 = Debug|x86
+		{0B4CD6EA-C03E-4497-8C99-D005E5A6BB53}.Debug+Web|x86.ActiveCfg = Debug+Web|x86
+		{0B4CD6EA-C03E-4497-8C99-D005E5A6BB53}.Debug+Web|x86.Build.0 = Debug+Web|x86
+		{0B4CD6EA-C03E-4497-8C99-D005E5A6BB53}.Release|x86.ActiveCfg = Release|x86
+		{0B4CD6EA-C03E-4497-8C99-D005E5A6BB53}.Release|x86.Build.0 = Release|x86
+		{02B1072D-C4D3-4BD8-A7BF-BBDA956E0DB8}.Debug|x86.ActiveCfg = Debug|x86
+		{02B1072D-C4D3-4BD8-A7BF-BBDA956E0DB8}.Debug|x86.Build.0 = Debug|x86
+		{02B1072D-C4D3-4BD8-A7BF-BBDA956E0DB8}.Debug+Web|x86.ActiveCfg = Debug+Web|x86
+		{02B1072D-C4D3-4BD8-A7BF-BBDA956E0DB8}.Debug+Web|x86.Build.0 = Debug+Web|x86
+		{02B1072D-C4D3-4BD8-A7BF-BBDA956E0DB8}.Release|x86.ActiveCfg = Release|x86
+		{02B1072D-C4D3-4BD8-A7BF-BBDA956E0DB8}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
