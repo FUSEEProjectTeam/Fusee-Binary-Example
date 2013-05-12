@@ -17,8 +17,8 @@
     <Reference Include="Fusee.Math.Core">
       <HintPath>..\..\lib\Fusee.Math.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Fusee.SceneManagement.SceneManagement">
-      <HintPath>..\..\lib\Fusee.SceneManagement.SceneManagement.dll</HintPath>
+    <Reference Include="Fusee.Engine.SceneManagement">
+      <HintPath>..\..\lib\Fusee.Engine.SceneManagement.dll</HintPath>
     </Reference>
     <Reference Include="JSIL.Meta">
       <HintPath>..\..\lib\JSIL.Meta.dll</HintPath>
